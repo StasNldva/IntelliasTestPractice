@@ -7,13 +7,14 @@ class Customer {
     private String lastName;
     private int amountMoney;
 
-    public double getAmountMoney() {
+    public int getAmountMoney() {
         return amountMoney;
     }
 
     public int getIdCustomer() {
         return id;
     }
+
     protected String getFirstName() {
         return firstName;
     }
